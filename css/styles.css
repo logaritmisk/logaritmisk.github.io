@@ -9,6 +9,14 @@ body {
   align-items: stretch;
 }
 
+#timer.timer-ended {
+  animation: blink 0.5s 10;
+}
+
+@keyframes blink {
+  50% { background: #000000; }
+}
+
 #rounds {
   display: flex;
   flex-direction: column;
