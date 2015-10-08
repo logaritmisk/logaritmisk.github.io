@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-#app {
+#timer {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -71,4 +71,30 @@ body {
   background: #000000;
   margin: 10px;
   padding: 10px;
+}
+
+#import {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#import textarea {
+  flex: 1;
+}
+
+#import span {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  color: #ffffff;
+  background: #000000;
+  margin: 10px;
+  padding: 10px;
+}
+
+#import .import-controllers {
+  width: 100%;
+  text-align: right;
 }
